@@ -1,5 +1,6 @@
 package entity;
 
+
 public class Moderador {
 	
 	private String email;
