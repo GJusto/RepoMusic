@@ -6,6 +6,7 @@ public class Musica {
 	private String album;
 	private int notaAvaliacao;
 	private String letra;
+	private String link;
 	
 	public String getNome() {
 		return nome;
@@ -30,6 +31,12 @@ public class Musica {
 	}
 	public void setLetra(String letra) {
 		this.letra = letra;
+	}
+	public String getLink() {
+		return link;
+	}
+	public void setLink(String link) {
+		this.link = link;
 	}
 
 }
