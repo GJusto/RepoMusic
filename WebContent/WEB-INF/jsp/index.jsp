@@ -9,7 +9,7 @@
 <body>
 	<h2 align="center">RepoMusic</h2>
 	<h3 align="center"> Para acessar as músicas, faça login ou cadastre-se!</h3>
-	<form action="" method="post">
+	<form action="ctrUser" method="post">
 		<div class="container">
 			<div class="form-group-row" align="center">
 				<label>Usuário:</label>

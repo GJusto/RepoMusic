@@ -8,6 +8,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.JstlView;
 import org.springframework.web.servlet.view.UrlBasedViewResolver;
 
+import entity.Usuario;
+
 
 @Configuration
 @EnableWebMvc
@@ -21,6 +23,11 @@ public class Config implements WebMvcConfigurer {
 		resolver.setSuffix(".jsp");
 		resolver.setViewClass(JstlView.class);
 		return resolver;
+	}
+	
+	@Bean
+	public Usuario user() {
+		return new Usuario();
 	}
 
 }
